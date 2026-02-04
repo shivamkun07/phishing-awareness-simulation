@@ -4,7 +4,7 @@ A web-based **Phishing Awareness Simulation Platform** built using **Laravel**, 
 
 ---
 
-## 📌 Project Overview
+# Project Overview
 
 This project simulates a real-world phishing scenario where:
 - Users receive a simulated phishing email
@@ -17,7 +17,7 @@ This project is strictly for **educational and awareness purposes only**.
 
 ---
 
-## ✨ Features
+ # Features
 
 - 🔐 Simulated phishing login page  
 - 🗂️ Credential capture with timestamp & IP logging  
@@ -29,7 +29,8 @@ This project is strictly for **educational and awareness purposes only**.
 
 ---
 
-## 🧑‍💻 Tech Stack
+## 🛠 Tech Stack
+
 
 - **Backend:** Laravel (PHP)
 - **Frontend:** Blade + Tailwind CSS
@@ -39,5 +40,30 @@ This project is strictly for **educational and awareness purposes only**.
 
 ---
 
-## 📂 Project Structure (Important)
+## 🚀 Deployment Guide
 
+
+This section explains how to set up and run the Phishing Awareness Simulation project locally for educational and testing purposes.
+### Prerequisites
+
+
+Ensure the following are installed on your system:
+-PHP 8.1+
+-Composer
+-Node.js & npm
+-SQLite (or MySQL if configured)
+-Git
+
+---
+
+## 🔄 Application Flow
+
+1. User receives a simulated phishing email
+2. Email contains a link to a fake login page
+3. User enters credentials on the phishing page
+4. Credentials are securely stored in the database (for awareness analysis)
+5. User is redirected to the legitimate website
+6. Admin can view captured attempts from the dashboard
+7. Admin can export results as CSV for reporting
+
+> ⚠️ This flow is implemented strictly for educational and awareness purposes.
